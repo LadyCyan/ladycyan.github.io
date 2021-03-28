@@ -33,7 +33,7 @@ body {
     font-style: monospace;
     /* background: linear-gradient(35deg, #CCFFFF,#FFCCCC); */
     background: #ABB2BB;
-    margin: 0;
+    margin: 20px;
     scroll-behavior: auto;
 }
 /* The navigation menu */
