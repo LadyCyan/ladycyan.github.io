@@ -1,0 +1,144 @@
+/* li{
+  display:inline;
+  float:left;
+  padding: 9px;
+  background-color: #F7A072;
+  border-right: 1px solid #bbb;
+}
+ul {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  overflow: hidden;
+  background-color: #B5E2FA;
+  box-shadow: 3px 3px #50514F;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+}
+li a:hover {
+  color: white;
+  background-color: #50514F;
+} */
+body {
+    text-align: center;
+    color:Black;
+    font-size: 20px;
+    font-style: monospace;
+    /* background: linear-gradient(35deg, #CCFFFF,#FFCCCC); */
+    background: #ABB2BB;
+    margin: 0;
+    scroll-behavior: auto;
+}
+/* The navigation menu */
+.navbar {
+  top: 0px;
+  position: sticky;
+  display:block;
+  overflow:visible;
+  background-color: #333;
+}
+
+/* Navigation links */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The subnavigation menu */
+.subnav {
+  float: left;
+  overflow: hidden;
+}
+
+/* Subnav button */
+.subnav .subnavbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+
+}
+
+/* Add a red background color to navigation links on hover */
+.navbar a:hover, .subnav:hover .subnavbtn {
+  background-color: #B5E2FA;
+}
+
+/* Style the subnav content - positioned absolute */
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: #B5E2FA;
+  width: 100%;
+  z-index: 1;
+}
+
+/* Style the subnav links */
+.subnav-content a {
+  float: left;
+  color: black;
+  text-decoration: none;
+}
+
+/* Add a grey background color on hover */
+.subnav-content a:hover {
+  background-color: #eee;
+  color: black;
+}
+
+/* When you move the mouse over the subnav container, open the subnav content */
+.subnav:hover .subnav-content {
+  display: block;
+}
+.smaller-image{
+  width: 300px;
+}
+.screenshots{
+  width: 800px;
+}
+.thin-black-border {
+  border-color: black;
+  border-width: 10px;
+  border-style: dotted;
+  border-radius: 100px;
+}
+.bold-blue-border {
+  border-color: #4F97A3;
+  border-width: 5px;
+  border-radius: 100px;
+  border-style: solid;
+}
+.bigger-font{
+  font-size: 40px;
+}
+.right{
+  float: center;
+  width: 80%;
+  padding: 10px;
+}
+.center{
+  width:80%;
+  padding: 10px;
+}
+.logo{
+  width: 400px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 50px;
+}
