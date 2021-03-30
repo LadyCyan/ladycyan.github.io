@@ -1,31 +1,3 @@
-/* li{
-  display:inline;
-  float:left;
-  padding: 9px;
-  background-color: #F7A072;
-  border-right: 1px solid #bbb;
-}
-ul {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  list-style-type: none;
-  margin: 0;
-  padding: 10px;
-  overflow: hidden;
-  background-color: #B5E2FA;
-  box-shadow: 3px 3px #50514F;
-}
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-}
-li a:hover {
-  color: white;
-  background-color: #50514F;
-} */
 body {
     text-align: center;
     color:Black;
