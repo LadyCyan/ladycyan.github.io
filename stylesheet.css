@@ -10,6 +10,13 @@ body {
     font-weight: 450;
     line-height: 1.50;
 }
+.anchor{
+  padding-top: 90px;
+}
+a, a:hover{
+  text-decoration: none;
+  color: inherit;
+}
 /* The navigation menu */
 .navbar {
   top: 0px;
@@ -25,7 +32,7 @@ body {
   font-size: 16px;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 14px 5vw;
   text-decoration: none;
 }
 
@@ -113,4 +120,7 @@ body {
   padding-top: 5px;
   padding-bottom: 5px;
   border-radius: 50px;
+}
+.margintop{
+  margin-top: 400px;
 }
