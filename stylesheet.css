@@ -1,25 +1,27 @@
 body {
     text-align: center;
     color:Black;
-    font-size: 20px;
+    font-size: 25px;
     font-style: monospace;
     /* background: linear-gradient(35deg, #CCFFFF,#FFCCCC); */
-    background: #ABB2BB;
+    background: #D5D8DD;
     margin: 20px;
     scroll-behavior: auto;
+    font-weight: 450;
+    line-height: 1.50;
 }
 /* The navigation menu */
 .navbar {
   top: 0px;
+  display: inline-flex;
   position: sticky;
-  display:block;
-  overflow:visible;
+  overflow: visible;
   background-color: #333;
 }
 
 /* Navigation links */
 .navbar a {
-  float: left;
+  float:inherit;
   font-size: 16px;
   color: white;
   text-align: center;
@@ -29,7 +31,6 @@ body {
 
 /* The subnavigation menu */
 .subnav {
-  float: left;
   overflow: hidden;
 }
 
@@ -63,7 +64,6 @@ body {
 
 /* Style the subnav links */
 .subnav-content a {
-  float: left;
   color: black;
   text-decoration: none;
 }
