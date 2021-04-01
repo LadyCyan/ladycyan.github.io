@@ -5,10 +5,25 @@ body {
     font-style: monospace;
     /* background: linear-gradient(35deg, #CCFFFF,#FFCCCC); */
     background: #D5D8DD;
-    margin: 20px;
+    margin: 40px 80px;
     scroll-behavior: auto;
     font-weight: 450;
     line-height: 1.50;
+    box-shadow: 6px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    box-shadow: 5px 5px #B5E2FA;
+}
+section{
+  margin: 60px;
+}
+p{
+  border-style: solid none none none;
+}
+iframe{
+  border-style:double;
+  border-width: 10px;
 }
 .anchor{
   padding-top: 90px;
@@ -24,6 +39,7 @@ a, a:hover{
   position: sticky;
   overflow: visible;
   background-color: #333;
+  box-shadow: 1px 1px 1px 1px white;
 }
 
 /* Navigation links */
